@@ -1,0 +1,27 @@
+
+========================172.27.0.165-Task Memory-Info==========================
+Max Task Memory Used: 22%  Current Task Memory Used: 1%
+==========================172.27.0.165-RE-Info=================================
+RE Slot#: 0  RE Model: RE-S-1800x4  Mastership State: master  Memory Utilization: 16%  CPU Utilization: 6%
+RE Slot#: 1  RE Model: RE-S-1800x4  Mastership State: backup  Memory Utilization: 7%  CPU Utilization: 0%
+==========================172.27.0.165-FPC-Info================================
+Slot: 0  State: Empty  Total Memory: NoneMB  Memory-Heap-Utilization: None%
+Slot: 1  State: Online  Total Memory: 2048MB  Memory-Heap-Utilization: 20%
+Slot: 2  State: Empty  Total Memory: NoneMB  Memory-Heap-Utilization: None%
+Slot: 3  State: Empty  Total Memory: NoneMB  Memory-Heap-Utilization: None%
+Slot: 4  State: Empty  Total Memory: NoneMB  Memory-Heap-Utilization: None%
+Slot: 5  State: Empty  Total Memory: NoneMB  Memory-Heap-Utilization: None%
+Slot: 6  State: Empty  Total Memory: NoneMB  Memory-Heap-Utilization: None%
+Slot: 7  State: Empty  Total Memory: NoneMB  Memory-Heap-Utilization: None%
+Slot: 8  State: Online  Total Memory: 1024MB  Memory-Heap-Utilization: 11%
+Slot: 9  State: Empty  Total Memory: NoneMB  Memory-Heap-Utilization: None%
+Slot: 10  State: Empty  Total Memory: NoneMB  Memory-Heap-Utilization: None%
+Slot: 11  State: Empty  Total Memory: NoneMB  Memory-Heap-Utilization: None%
+==========================172.27.0.165-Route-Info==============================
+Table Name: inet.0 Active Routes: 713 Total Routes: 802
+Table Name: inet.2 Active Routes: 353 Total Routes: 355
+Table Name: inet.3 Active Routes: 12 Total Routes: 12
+Table Name: inet6.0 Active Routes: 633 Total Routes: 1055
+Table Name: bgp.l2vpn.0 Active Routes: 307 Total Routes: 307
+Table Name: bgp.l3vpn.0 Active Routes: 454 Total Routes: 908
+Table Name: mpls.0 Active Routes: 323 Total Routes: 323

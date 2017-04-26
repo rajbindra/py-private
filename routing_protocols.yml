@@ -1,0 +1,25 @@
+tests_include:
+  - test_rpc_bgp
+  - test_rpc_ospf
+
+test_rpc_bgp:
+  - rpc: get-bgp-summary-information
+  - iterate:
+      xpath: 'bgp-peer'
+      id:    peer-address
+      tests:
+        - no-diff: peer-state
+          err: "BGP neighbor {{post['peer-address']}} is at different state !! it is {{post['peer-state']}} was at {{pre['peer-state']}} "
+          info: "Test Succeeded!! State is the same as before, it is now <{{post['peer-state']}}>!!!"
+
+
+test_rpc_ospf:
+  - rpc: get-ospf-neighbor-information
+  - iterate:
+      xpath: 'ospf-neighbor'
+      id:    neighbor-address
+      tests:
+        - no-diff: ospf-neighbor-state
+          err: "OSPF neighbor {{post['peer-address']}} is at different state !! it is {{post['peer-state']}} was at {{pre['peer-state']}} "
+          info: "Test Succeeded!! State is the same as before, it is now <{{post['peer-state']}}>!!!"
+
